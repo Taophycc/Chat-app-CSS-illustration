@@ -21,12 +21,12 @@ Users should be able to:
 
 ### Screenshot
 
-!(./screenshot.jpg)
+![image](https://github.com/user-attachments/assets/5eb11c05-8adb-46f8-8d5b-b30b1de3d7a9)
 
 ### Links
 
 - Solution URL: [taophycc.github.io](https://your-solution-url.com)
-- Live Site URL: [taophycc.github.io](https://your-live-site-url.com)
+- Live Site URL: [taophycc.github.io](https://taophycc.github.io/Chat-app-CSS-illustration/)
 
 ### Built with
 
