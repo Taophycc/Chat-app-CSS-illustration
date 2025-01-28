@@ -1,0 +1,326 @@
+/* Mobile devices from 320px to 600px */
+@media (min-width:20em) and (max-width:37.5em) {
+    .section {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .graphics {
+        width: 100%;
+        height: 70%;
+    }
+    .box {
+        height: 80%;
+        width: 250px;
+        left: -130px;
+    }
+
+    .chat-template {
+        background-color: hsl(270, 20%, 96%);
+        left: 60px;
+        top: 50px;
+        width: 260px;
+        height: 470px;
+        position: relative;
+        z-index: 1;
+        gap: 10px;
+
+    }
+
+    .chat-section {
+        justify-content: space-between;
+    }
+    
+    .header {
+        background-color: white;
+        height: 15%;
+    }
+
+    .header-content {
+        padding: 0.6em 1em;
+    }
+
+    .name {
+        margin-right: 2em;
+    }
+
+    .purple-text {
+        font-size: 0.5rem;
+        padding: 0.5em;
+    }
+
+    .dog-image {
+        width: 30px;
+    }
+
+    .black-text {
+        font-size: 0.5rem;
+        padding: 0.5em;
+    }
+
+    .radio-section {
+        gap: 5px;
+    }
+
+    .radio-text {
+        padding: 0.5em;
+    }
+   
+
+    .content {
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        height: 30%;
+        margin-top: 3em;
+       
+    }
+
+    .box-2 {
+        width: 350px;
+        top: 0px;
+        left: 70%;
+        position: relative;
+        height: 450px;
+    }
+
+    .text {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        right: 70px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Tablets and Ipad from 601px to 1000px */
+@media (min-width:37.5625em) and (max-width:62.5em) {
+    .section {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .graphics {
+        width: 100%;
+        height: 70%;
+    }
+    .box {
+        height: 100%;
+        width: 450px;
+        left: -130px;
+    }
+
+    .chat-template {
+        background-color: hsl(270, 20%, 96%);
+        left: 260px;
+        top: 100px;
+        width: 280px;
+        height: 470px;
+        position: relative;
+        z-index: 1;
+        gap: 10px;
+
+    }
+
+    .chat-section {
+        justify-content: space-between;
+    }
+
+    .header {
+        background-color: white;
+        height: 15%;
+    }
+
+    .header-content {
+        padding: 0.6em 1em;
+    }
+
+    .name {
+        margin-right: 2em;
+    }
+
+    .purple-text {
+        font-size: 0.5rem;
+        padding: 0.5em;
+    }
+
+    .dog-image {
+        width: 30px;
+    }
+
+    .black-text {
+        font-size: 0.5rem;
+        padding: 0.5em;
+    }
+
+    .radio-section {
+        gap: 5px;
+    }
+
+    .radio-text {
+        padding: 0.5em;
+    }
+   
+
+    .content {
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        height: 30%;
+        margin-top: 3em;
+       
+    }
+
+    .box-2 {
+        width: 650px;
+        top: 0px;
+        left: 70%;
+        position: relative;
+        height: 620px;
+    }
+
+    .text {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        right: 190px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+/* laptops from 1001px to 1349px */
+@media (min-width:62.5625em) and (max-width:84.3125em) {
+    .section {
+        gap: 70px;
+    }
+
+    .box {
+        width: 300px;
+        height: 80%;
+    }
+
+    .chat-template {
+        left: 190px;
+    } 
+
+    .content {
+        overflow: hidden;
+    }
+
+    .box-2 {
+        height: 80%;
+        top: 20%;
+    }
+}
+
+
+/* Ipad pro portrait mode */
+@media (width:64em) and (orientation: portrait) {
+    .section {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .graphics {
+        width: 100%;
+        height: 70%;
+    }
+    .box {
+        height: 700px;
+        width: 550px;
+        left: -130px;
+    }
+
+    .chat-template {
+        background-color: hsl(270, 20%, 96%);
+        left: 360px;
+        top: 100px;
+        width: 280px;
+        height: 470px;
+        position: relative;
+        z-index: 1;
+        gap: 10px;
+
+    }
+
+    .chat-section {
+        justify-content: space-between;
+    }
+
+    .header {
+        background-color: white;
+        height: 15%;
+    }
+
+    .header-content {
+        padding: 0.6em 1em;
+    }
+
+    .name {
+        margin-right: 2em;
+    }
+
+    .purple-text {
+        font-size: 0.5rem;
+        padding: 0.5em;
+    }
+
+    .dog-image {
+        width: 30px;
+    }
+
+    .black-text {
+        font-size: 0.5rem;
+        padding: 0.5em;
+    }
+
+    .radio-section {
+        gap: 5px;
+    }
+
+    .radio-text {
+        padding: 0.5em;
+    }
+   
+
+    .content {
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        height: 30%;
+        margin-top: 3em;
+       
+    }
+
+    .box-2 {
+        width: 650px;
+        left: 70%;
+        position: relative;
+        height: 800px;
+    }
+
+    .text {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        right: 240px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
